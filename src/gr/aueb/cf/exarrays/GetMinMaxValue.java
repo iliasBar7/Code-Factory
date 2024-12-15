@@ -3,7 +3,7 @@ package gr.aueb.cf.exarrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class PrintArray {
+public class GetMinMaxValue {
 
     public static void main(String[] args) {
 
