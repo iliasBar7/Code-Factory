@@ -14,7 +14,7 @@ public class GetMinMaxValue {
             System.out.println("How many items do you want to enter ? ");
 
             size = in.nextInt();
-            if (size < 0 || size == 0) throw new Exception("You must not insert negative integers or zero value ");
+            if (size <= 0 ) throw new Exception("You must not insert negative integers or zero value ");
 
             // Δημιουργία πίνακα με το μέγεθος που έδωσε ο χρήστης
             int[] arr = new int[size];
